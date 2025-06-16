@@ -9,7 +9,7 @@ from datetime import datetime
 import google.generativeai as genai
 
 # Gemini API key
-GEMINI_API_KEY = "AIzaSyAisOs1gZstorFU109cha8ry14H-AirnWI"
+GEMINI_API_KEY = "ENTER YOUR GEMINI API KEY"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
 
 def analyze_with_gemini(data, analysis_type):
