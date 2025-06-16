@@ -12,6 +12,9 @@ A comprehensive web application for college management built with Python and Str
 - Course management
 - Student performance analytics
 - Announcements and notifications
+- AI-driven analysis of academic progress and personalized recommendations
+-Chatbot for career-related doubts, guidance, and skill-building suggestions for students
+
 
 ## Setup Instructions
 
