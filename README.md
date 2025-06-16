@@ -22,16 +22,13 @@ A comprehensive web application for college management built with Python and Str
    ```
    pip install -r requirements.txt
    ```
-
-2. Run the application:
+2. Change the Gemini API Key.
+   
+3. Run the application:
    ```
    streamlit run app.py
    ```
 
-3. Default login credentials:
-   - Admin: admin@college.edu / admin123
-   - Teacher: teacher@college.edu / teacher123
-   - Student: student@college.edu / student123
 
 ## System Requirements
 
