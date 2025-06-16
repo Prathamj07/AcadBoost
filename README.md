@@ -1,4 +1,4 @@
-# College Management System
+# AcadBoost
 
 A comprehensive web application for college management built with Python and Streamlit.
 
@@ -40,4 +40,4 @@ A comprehensive web application for college management built with Python and Str
 - `/data`: Contains all the data files
 - `/pages`: Contains different pages of the application
 - `/components`: Reusable UI components
-- `/utils`: Utility functions and helpers 
+- `/utils`: Utility functions and helpers
