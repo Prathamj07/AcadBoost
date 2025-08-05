@@ -6,8 +6,8 @@ from utils.auth import role_required
 from utils.ui import show_header, show_notification
 
 # Gemini API configuration
-GEMINI_API_KEY = "AIzaSyCwAgIkonxIC8aIHbrOV5aTcAMHsz8iChk"
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+GEMINI_API_KEY = "ENTER YOUR GEMINI / ANY LLM's API KEY"
+GEMINI_API_URL = "MODEL URL"
 
 def get_gemini_response(prompt):
     """Get response from Gemini API."""
@@ -100,4 +100,5 @@ def show_career_sathi():
                 with st.spinner("Thinking..."):
                     response = get_gemini_response(question)
                     st.write(response)
+
                     st.session_state.career_chat_history.append({"role": "assistant", "content": response}) 
